@@ -1,1 +1,2 @@
-export EDITOR='atom'
+export EDITOR='vim'
+eval $(dircolors -b)
