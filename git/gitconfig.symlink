@@ -6,7 +6,7 @@
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
+#        wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
@@ -31,3 +31,5 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[diff]
+	tool = vimdiff

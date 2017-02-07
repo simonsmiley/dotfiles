@@ -15,6 +15,7 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "no"
     themes: [
       "unity-ui"
       "glacier-syntax"
@@ -24,7 +25,11 @@
     fontSize: 15
     invisibles: {}
     showIndentGuide: true
+    showInvisibles: true
     softWrapAtPreferredLineLength: true
+  fonts:
+    fontFamily: "Hack"
+    preview: "The Quick brown fox { 0 !== \"O\" }⌛"
   "go-plus":
     goPath: "/Users/holman/Code/go"
   "linter-eslint":

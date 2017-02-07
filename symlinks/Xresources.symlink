@@ -24,7 +24,7 @@ URxvt*borderless:           false
 URxvt.allow_bold:           false
 !urxvt*font:                xft:Inconsolata:pixelsize=15:antialias=true:hinting=true
 !urxvt*font:                 xft:Inconsolata\ for\ Powerline:pixelsize=15
-URxvt*font:                 xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Inconsolata\ for\ Powerline:pixelsize=15
+URxvt*font:                 xft:Hack:pixelsize=13,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:DejaVu\ Sans\ Mono:pixelsize=15
 
 ! Scrollbar
 URxvt.scrollStyle:          rxvt
