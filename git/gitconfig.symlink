@@ -14,6 +14,67 @@
         status = auto
         branch = auto
         ui = true
+[alias]
+	l = log --color --graph --format=format:'%C(blue)%h%C(reset) - %C(white)(%ar)%C(reset) %s %C(red)%d%C(reset) %C(bold blue)— %an%C(reset)' --abbrev-commit
+	lst = log -1
+	lf = log --color --graph --name-status --format=format:'%C(blue)%h%C(reset) - %C(white)(%ar)%C(reset) %s %C(red)%d%C(reset) %C(bold blue)— %an%C(reset)' --abbrev-commit
+	lg = log --color --graph -n 15 --format=format:'%C(blue)%h%C(reset) - %C(white)(%ar)%C(reset) %s %C(red)%d%C(reset) %C(bold blue)— %an%C(reset)' --abbrev-commit
+	ll = log --color --graph --all --format=format:'%C(blue)%h%C(reset) - %C(white)(%ar)%C(reset) %s %C(red)%d%C(reset) %C(bold blue)— %an%C(reset)' --abbrev-commit
+	lm = log --color -n 15 --pretty
+
+	a = add
+	ai = add -i
+	aN = add -N
+	ap = add -p
+	b = branch
+	bc = branch --contains
+	bv = branch -v
+	bva = branch -va
+	c = commit -v
+	ca = commit -v --amend
+	cb = checkout -b
+	ch = cherry-pick
+	cnf = config
+	cnfg = config --global
+	co = checkout
+	d = diff --stat
+	dc = diff --color-words
+	dd = diff
+	des = describe
+	ds = diff --name-status
+	dt = difftool
+	dtg = difftool -g
+	f = fetch
+	fa = fetch --all
+	ff = merge --ff-only
+	for = for-each-ref
+	fp = format-patch
+	m = merge
+	mt = mergetool
+	nr = name-rev
+	p = push
+	pf = push --force-with-lease
+	pu = pull
+	r = remote
+	rb = rebase
+	rbi = rebase -i
+	rbx = rebase -x
+	rs = reset
+	rsh = reset --hard
+	rss = reset --soft
+	rv = remote -v
+	s = status -s
+	ss = status
+	st = stash
+	sta = stash apply
+	std = stash drop
+	stl = stash list
+	stp = stash pop
+	sts = stash save
+	t = tag
+	tc = tag --contains
+	wtf = config --show-origin
+
 [core]
         excludesfile = ~/.gitignore
         editor = vim
