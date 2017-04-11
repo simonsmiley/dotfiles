@@ -56,7 +56,7 @@ directory_name() {
 
 
 
-export PROMPT=$'\n$in $(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'\n$in %{$fg_bold[green]%}$(hostname)%{$reset_color%} $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
