@@ -84,5 +84,7 @@ URxvt*color14 : #34E2E2
 URxvt*color7  : #D3D7CF
 URxvt*color15 : #EEEEEC
 
+URxvt.termName: rxvt-unicode-256color
+
 
 Xcursor*theme: breeze_cursors
