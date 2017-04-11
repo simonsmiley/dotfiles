@@ -31,7 +31,7 @@
     fontFamily: "Hack"
     preview: "The Quick brown fox { 0 !== \"O\" }⌛"
   "go-plus":
-    goPath: "/Users/holman/Code/go"
+    panelDisplayMode: "closed"
   "linter-eslint":
     useGlobalEslint: true
   "release-notes":
