@@ -24,7 +24,7 @@ set incsearch
 set ignorecase
 :nnoremap <CR> :nohlsearch<CR>/<BS><CR>
 
-map <C-T> :tabnew<CR>:edit
+map <C-T> :tabnew<CR>:edit 
 map <C-O> :tabfind
 map <S-Tab> gt
 
